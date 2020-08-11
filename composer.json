@@ -1,0 +1,25 @@
+{
+    "name": "r22/admin-menu-example",
+    "description": "Admin menu example",
+    "version": "v1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "r22"
+        }
+    ],
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "R22\\AdminMenuExample\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "R22\\AdminMenuExample\\AdminMenuExample",
+        "copyright": "(c) by r22",
+        "label": {
+            "de-DE": "Beispiel Menü Eintrag für Shopware",
+            "en-GB": "Example menu item for Shopware"
+        }
+    }
+}
